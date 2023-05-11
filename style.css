@@ -1,0 +1,77 @@
+body {
+margin: 0;
+padding: 0;
+background-color: black;
+}
+
+.topBar {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,176,5,1) 100%); 
+    height: 100px;
+    width: auto;
+}
+
+.header {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+.homeButton {
+    text-decoration: none;
+}
+
+.blank {
+    height: 200px;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.video {
+    background-color: rgb(255, 153, 0);
+    width: 400px;
+    height: 200px;
+}
+
+.videoTextDiv {
+    width: 400px;
+    height: 25px;
+}
+
+.videoText {
+    font-size: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.videoText2 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.commentbox {
+    background-color: orange;
+}
+
